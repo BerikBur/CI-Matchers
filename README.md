@@ -1,6 +1,6 @@
 # Pure Functions
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/0a27dfhrijty2tr3?svg=true)](https://ci.appveyor.com/project/BerikBur/ci-pure-functions)
 
 ## Описание
 
