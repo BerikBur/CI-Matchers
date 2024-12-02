@@ -7,3 +7,7 @@ export default function checkHealth({ health }) {
   }
   return 'critical';
 }
+
+export function sortHeroesByHealth(heroes) {
+    return heroes.sort((a, b) => b.health - a.health);
+  }
