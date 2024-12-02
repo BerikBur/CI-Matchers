@@ -1,4 +1,4 @@
-image: Ubuntu1804  # образ для сборки
+image: Ubuntu2004  # образ для сборки
 
 stack: node 16  # окружение
 
@@ -10,8 +10,9 @@ cache: node_modules  # кеширование
 
 install:
   - npm install  # команда установки зависимостей
+  - npm install -g jest  # установка глобальной версии Jest
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
 test_script:
-  - npm run test  # скрипт тестирования 
+  - npm test  # скрипт тестирования 
