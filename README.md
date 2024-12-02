@@ -1,6 +1,6 @@
-# Pure Functions
+# Mathers
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0a27dfhrijty2tr3?svg=true)](https://ci.appveyor.com/project/BerikBur/ci-matchers)
+[![Build status](https://ci.appveyor.com/api/projects/status/2px00jobtgmmy5d9?svg=true)](https://ci.appveyor.com/project/BerikBur/ci-matchers)
 
 ## Описание
 
@@ -8,3 +8,11 @@
 * Здоровье более 50 - зелёный (healthy)
 * Здоровье от 50 и до 15 - жёлтый (wounded)
 * Менее 15 - красный (critical)
+* Корректная сортировка героев по убыванию здоровья
+* Обработка героев с одинаковым уровнем здоровья
+* Обработка пустого массива
+
+### Реализация теста
+
+* `toBe` используется для проверки строгого равенства (сравнение ссылок для объектов).
+* `toEqual` используется для глубокого сравнения объектов (сравнение содержимого).
